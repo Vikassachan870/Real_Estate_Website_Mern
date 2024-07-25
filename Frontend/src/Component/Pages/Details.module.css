@@ -1,0 +1,8 @@
+.wrapper {
+  max-height: 120px;
+  border: 1px solid #0000;
+  overflow-x: auto;
+}
+.wrapper::-webkit-scrollbar {
+  width: 0;
+}
