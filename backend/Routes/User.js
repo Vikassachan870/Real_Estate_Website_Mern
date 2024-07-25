@@ -191,8 +191,8 @@ router.post('/forgot-password', async(req, res) => {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'aproperties485@gmail.com',
-        pass: 'hgiq ebhy asrl qrql',
+        user: 'enter your email',
+        pass: 'enter your app password of email',
       },
     });
     const link='http://localhost:5173/reset-password/${token}';
